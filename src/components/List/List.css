@@ -1,8 +1,13 @@
 .plp {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .plp .product-card {
-  width: 50%;
+  width: 75%;
+}
+.goback {
+  padding: 5px;
+  background: transparent;
+  border: 1px #000 solid;
 }

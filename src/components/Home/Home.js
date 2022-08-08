@@ -9,6 +9,8 @@ const Home = (props) => {
   return (
     <div class="home">
       <h3>This is Home page </h3>
+
+      <h3>Featured Paintings</h3>
       <div class="featured">
         <Product title={props.items[0].title} images={props.items[0].images} />
         <Product title={props.items[1].title} images={props.items[1].images} />
@@ -16,7 +18,7 @@ const Home = (props) => {
         <Product title={props.items[3].title} images={props.items[3].images} />
       </div>
       <Link to="/list">
-        <button>Click here for more </button>
+        <button class="seemore">Click here for more </button>
       </Link>
     </div>
   );

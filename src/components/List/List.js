@@ -8,7 +8,7 @@ const List = (props) => {
       <h3>This is List page</h3>
 
       <Link to="/">
-        <button>Go back</button>
+        <button className="goback">Go back</button>
       </Link>
       <div class="plp">
         <Product title={props.items[0].title} images={props.items[0].images} />
