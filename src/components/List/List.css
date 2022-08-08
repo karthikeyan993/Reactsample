@@ -1,0 +1,8 @@
+.plp {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.plp .product-card {
+  width: 50%;
+}
