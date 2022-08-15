@@ -1,0 +1,52 @@
+.featured {
+  display: flex;
+  overflow: hidden;
+}
+
+.seemore {
+  padding: 5px;
+  background: transparent;
+  border: 1px #000 solid;
+}
+
+.plp {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.plp .product-card {
+  width: 75%;
+}
+
+.goback {
+  padding: 5px;
+  background: transparent;
+  border: 1px #000 solid;
+}
+
+.ProductCard {
+  width: 25%;
+  height: auto;
+  padding: 10px;
+  border: 1px solid grey;
+  margin: 10px 10px 10px 0px;
+}
+
+.product-card img {
+  width: 100%;
+  height: 400px;
+}
+
+.title {
+  text-align: center;
+  margin: 0px;
+  padding-bottom: 10px;
+}
+
+.Header {
+  font-size: 20px;
+}
+
+.Footer {
+  font-size: 20px;
+}

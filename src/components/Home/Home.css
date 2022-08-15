@@ -1,9 +1,0 @@
-.featured {
-  display: flex;
-  overflow: hidden;
-}
-.seemore {
-  padding: 5px;
-  background: transparent;
-  border: 1px #000 solid;
-}

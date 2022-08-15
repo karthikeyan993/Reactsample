@@ -1,24 +1,27 @@
 import React from "react";
-import "./Home.css";
-import Product from "../product/product";
+import Product from "../../Product/Product";
 import { Link } from "react-router-dom";
+import styles from '../../Style/Style.module.css';
+
+
+
 const Home = (props) => {
   console.log(props.items[0].title);
   console.log(props.items[0].images);
 
   return (
-    <div class="home">
+    <div>
       <h3>This is Home page </h3>
 
       <h3>Featured Paintings</h3>
-      <div class="featured">
+      <div className={styles.featured}>
         <Product title={props.items[0].title} images={props.items[0].images} />
         <Product title={props.items[1].title} images={props.items[1].images} />
         <Product title={props.items[2].title} images={props.items[2].images} />
         <Product title={props.items[3].title} images={props.items[3].images} />
       </div>
       <Link to="/list">
-        <button class="seemore">Click here for more </button>
+        <button className={styles.seemore}>Click here for more </button>
       </Link>
     </div>
   );

@@ -1,16 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Product from "../product/product";
-import "./List.css";
+import Product from "../../Product/Product";
+import styles from '../../Style/Style.module.css';
 const List = (props) => {
   return (
     <div>
       <h3>This is List page</h3>
 
       <Link to="/">
-        <button className="goback">Go back</button>
+        <button className={styles.goback}>Go back</button>
       </Link>
-      <div class="plp">
+      <div className={styles.plp}>
         <Product title={props.items[0].title} images={props.items[0].images} />
         <Product title={props.items[1].title} images={props.items[1].images} />
         <Product title={props.items[2].title} images={props.items[2].images} />
