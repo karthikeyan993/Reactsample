@@ -3,7 +3,7 @@ import styles from '../Style/Style.module.css';
 
 const Header = () => (
   <div className={styles.Header}>
-    <h1>Header</h1>
+    <img src='/images/logo.jpg'></img>
   </div>
 )
 export default Header;

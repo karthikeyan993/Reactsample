@@ -5,8 +5,6 @@ import styles from '../../Style/Style.module.css';
 const List = (props) => {
   return (
     <div>
-      <h3>This is List page</h3>
-
       <Link to="/">
         <button className={styles.goback}>Go back</button>
       </Link>

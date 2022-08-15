@@ -11,7 +11,6 @@ const Home = (props) => {
 
   return (
     <div>
-      <h3>This is Home page </h3>
 
       <h3>Featured Paintings</h3>
       <div className={styles.featured}>
